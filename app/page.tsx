@@ -1,7 +1,11 @@
+import Header from "./components/header";
+import JobList from "./components/JobList";
+
 
 
 export default function Home() {
-  return ( <div>Hello World</div>
-    
-  );
+  return <>
+  <Header />
+  <JobList />
+  </>;
 }
