@@ -1,36 +1,29 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+Veckans teoretiska frågor 
+Allmänt om ramverket React: Hur/Varför uppkom det? Vad är centralt i React?
+Vad är JSX?
+Vad är en komponent?
+Vad är props?
+Vad menas med one-way-dataflow?
+Hur kan man använda sig av konditionell rendering i React?
+Vad menas med en återanvändbar komponent?
 
-## Getting Started
 
-First, run the development server:
+Veckans teoretiska frågor 
+Vad är state i React?
+Vad är det för skillnad mellan state och props?
+Vad menas med en kontrollerad komponent i React?
+Vad är en callback handler?
+Vad menas med "lifting state up"?
+Vad är syftet med useEffect-hook i React?
+Vad är syftet kring den s.k dependency-arrayen i useEffect?
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Veckans teoretiska frågor 
+Vilka fördelar finns det med att använda NextJS? Nackdelar?
+Vad menas med Routing? På vilket sätt löser NextJS Routing v.s "vanliga React"?
+Vad menas med Reacts ekosystem? Nämn några viktiga bibliotek i Reacts ekosystem?
+Vad är syftet med useContext? Vilket problem med props löser den?
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Veckans teoretiska frågor 
+Vad är Redux Toolkit? 
+När, i vilka situationer vill man använda Redux Toolkit?
