@@ -20,7 +20,7 @@ React byggdes av facebook(meta) 2012 för att hjälpa till att bygga webbplatser
      Komponenter kan återanvändas genom att bara göra fler instanser av det i JSX av komponenten som renderas vanligtvis en app eller en rotkomponent. Varje komponent kommer att vara beroende av om den har funktioner inuti sig eller ansluten om funktionen finns i   
      appkomponenten.
 
-     **8. Vad är state i React?**
+**8. Vad är state i React?**
 **9. Vad är det för skillnad mellan state och props?**
 **10. Vad menas med en kontrollerad komponent i React?**
 **11. Vad är en callback handler?**
