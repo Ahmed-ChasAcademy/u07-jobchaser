@@ -1,4 +1,6 @@
 
+
+
 **1.  Allmänt om ramverket React: Hur/Varför uppkom det? Vad är centralt i React?**
 React byggdes av facebook(meta) 2012 för att hjälpa till att bygga webbplatser snabbare och 			 i små bitar av koder. Den använder "komponenter" ett viktigt koncept i react som bryter ner webbplatser till små bitar av komponenter, varje komponent har sina egna koder och design och kan sedan enkelt kopplas till andra komponenter för att göra en hel webbsida fullt fungerande med komponenter kopplade till varandra.
 
@@ -21,6 +23,7 @@ React byggdes av facebook(meta) 2012 för att hjälpa till att bygga webbplatser
      appkomponenten.
 
 **8. Vad är state i React?**
+
 **9. Vad är det för skillnad mellan state och props?**
 **10. Vad menas med en kontrollerad komponent i React?**
 **11. Vad är en callback handler?**
