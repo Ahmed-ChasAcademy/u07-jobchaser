@@ -14,8 +14,46 @@
   }
 }
 
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+
+
+
+
+.job-list-grid{
+  display: flex;
+  flex-direction: column;
+  margin: 1rem auto;
+  gap: 10px;
+  width: 90%;
+}
+
+/*  Card */
+
+.job-card {
+  display: flex;
+  flex-direction: column;
+  border: 2px white solid;
+  height: auto;
+  text-align: left;
+  padding: 2rem;
+  font-size: 1.5rem;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+  
+}
+
+.logo {
+  margin-left: auto;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+
+.title {
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+.position {
+  text-decoration: underline;
+  font-size: 2rem;
 }
