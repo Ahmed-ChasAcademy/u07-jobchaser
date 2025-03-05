@@ -16,9 +16,9 @@
 
 
 .job-list-grid {
-  display: grid; /* Changed from flex to grid for better layout control */
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Responsive grid */
-  gap: 20px; /* Increased gap for better spacing */
+  display: grid; 
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); 
+  gap: 20px; 
   width: 90%;
   margin: 1rem auto;
   padding: 1rem;
@@ -31,10 +31,10 @@
   border: 2px solid white;
   gap: 1rem;
   padding: 1.5rem;
-  font-size: 1.2rem; /* Slightly reduced font size for better proportions */
-  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2); /* Softened shadow */
-  background: #1a1a1a; /* Optional: Better contrast */
-  border-radius: 10px; /* Rounded corners */
+  font-size: 1.2rem; 
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2); 
+  background: #1a1a1a; 
+  border-radius: 10px; 
   transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
 }
 
@@ -45,7 +45,7 @@
 
 /* Logo */
 .logo {
-  width: 50px; /* Ensure consistency in logo size */
+  width: 50px; 
   height: auto;
   align-self: right;
 }
@@ -62,14 +62,14 @@
 /* Position */
 .position {
   text-decoration: underline;
-  font-size: 1.6rem; /* Balanced size */
+  font-size: 1.6rem; 
   font-weight: bold;
 }
 
 /* Responsive Design */
 @media (max-width: 768px) {
   .job-list-grid {
-    grid-template-columns: 1fr; /* Single-column layout for mobile */
+    grid-template-columns: 1fr; 
   }
 
   .job-card {

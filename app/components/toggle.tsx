@@ -22,7 +22,7 @@ const DarkModeToggle = () => {
   };
 
   return (
-    <button
+    <button className="toggle"
       onClick={toggleTheme}
     >
       {isDarkMode ? "☀︎" : "☾"}

@@ -1,4 +1,4 @@
-'use client'
+"use client";
 import React from "react";
 import DarkModeToggle from "./toggle";
 
@@ -9,14 +9,8 @@ const Header = () => {
         <a className="btn btn-ghost text-3xl">JobChaser</a>
       </div>
       <div className="flex-2 gap-10">
-        <div className="form-control">
-          <DarkModeToggle />
-          <input
-            type="text"
-            placeholder="Search Jobs"
-            className="input input-bordered w-24 md:w-auto"
-          />
-        </div>
+        <div className="form-control"></div>
+        <DarkModeToggle />
         <div className="dropdown dropdown-end">
           <div
             tabIndex={0}
