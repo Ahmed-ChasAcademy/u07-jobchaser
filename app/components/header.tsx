@@ -8,8 +8,7 @@ const Header = () => {
       <div className="flex-1">
         <a className="btn btn-ghost text-3xl">JobChaser</a>
       </div>
-      <div className="flex-2 gap-10">
-        <div className="form-control"></div>
+      <div className="flex items-center gap-6 ml-auto">
         <DarkModeToggle />
         <div className="dropdown dropdown-end">
           <div
@@ -19,7 +18,7 @@ const Header = () => {
           >
             <div className="w-10 rounded-full">
               <img
-                alt="Tailwind CSS Navbar component"
+                alt="User Avatar"
                 src="https://img.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.webp"
               />
             </div>
@@ -47,4 +46,4 @@ const Header = () => {
   );
 };
 
-export default Header;
+export default Header; 
