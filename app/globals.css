@@ -15,45 +15,70 @@
 }
 
 
-
-
-
-.job-list-grid{
-  display: flex;
-  flex-direction: column;
-  margin: 1rem auto;
-  gap: 10px;
+.job-list-grid {
+  display: grid; /* Changed from flex to grid for better layout control */
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Responsive grid */
+  gap: 20px; /* Increased gap for better spacing */
   width: 90%;
+  margin: 1rem auto;
+  padding: 1rem;
 }
 
-/*  Card */
-
+/*  Job Card */
 .job-card {
   display: flex;
   flex-direction: column;
-  border: 2px white solid;
-  height: auto;
-  text-align: left;
-  padding: 2rem;
-  font-size: 1.5rem;
-  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
-  
+  border: 2px solid white;
+  gap: 1rem;
+  padding: 1.5rem;
+  font-size: 1.2rem; /* Slightly reduced font size for better proportions */
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2); /* Softened shadow */
+  background: #1a1a1a; /* Optional: Better contrast */
+  border-radius: 10px; /* Rounded corners */
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
 }
 
+.job-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 5px 10px 15px rgba(0, 0, 0, 0.3);
+}
+
+/* Logo */
 .logo {
-  margin-left: auto;
-  margin-top: 1rem;
-  margin-bottom: 1rem;
+  width: 50px; /* Ensure consistency in logo size */
+  height: auto;
+  align-self: right;
 }
 
-
+/* Title Section */
 .title {
   display: flex;
   justify-content: space-between;
-  
+  align-items: center;
+  font-weight: bold;
+  font-size: 1.4rem;
 }
 
+/* Position */
 .position {
   text-decoration: underline;
-  font-size: 2rem;
+  font-size: 1.6rem; /* Balanced size */
+  font-weight: bold;
 }
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .job-list-grid {
+    grid-template-columns: 1fr; /* Single-column layout for mobile */
+  }
+
+  .job-card {
+    padding: 1rem;
+    font-size: 1rem;
+  }
+
+  .position {
+    font-size: 1.4rem;
+  }
+}
+

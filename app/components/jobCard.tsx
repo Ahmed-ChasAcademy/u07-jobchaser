@@ -29,11 +29,12 @@ const jobCard = ({
 }: JobCard) => {
   return ( 
     <div className="job-card" key={id}>
+      <img className="logo" src={logo} alt={`${company}-logo`} />
       <div className="title">
         <p className="position">{position}</p>
         <p className="post-date">{postedAt}</p>
       </div>
-      <img className="logo" src={logo} alt={`${company}-logo`} />
+      
       <p><b>Company:</b> {company}</p>
       <p><b>Location:</b> {location}</p>
 
@@ -54,7 +55,6 @@ const jobCard = ({
       <p className="tools">
         <b>Tools:</b> {tools}
       </p>
-      <button>Read More</button>
     </div>
     
     

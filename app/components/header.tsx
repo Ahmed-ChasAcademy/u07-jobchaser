@@ -1,4 +1,6 @@
+'use client'
 import React from "react";
+import DarkModeToggle from "./toggle";
 
 const Header = () => {
   return (
@@ -8,6 +10,7 @@ const Header = () => {
       </div>
       <div className="flex-2 gap-10">
         <div className="form-control">
+          <DarkModeToggle />
           <input
             type="text"
             placeholder="Search Jobs"
