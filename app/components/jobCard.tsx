@@ -8,7 +8,7 @@ export interface JobCardProps {
   position: string;
   role: string;
   level: string;
-  postedAt: string; // Fixed: should be lowercase 'string'
+  postedAt: string;
   contract: string;
   location: string;
   languages: string[];
@@ -28,27 +28,53 @@ const JobCard: React.FC<JobCardProps> = ({
   tools,
 }) => {
   return (
-    <div className="job-card">
-      <Image
+    <div
+      className="job-card"
+      style={{
+        background: "var(--card-bg)",
+        color: "var(--card-text)",
+        border: "2px solid var(--border-color)",
+      }}
+    >
+
+      <div className="title">
+        <p className="position">{position}</p>
+        <div>
+        <Image
         className="logo"
         src={logo}
         alt={`${company} logo`}
-        width={50} // Adjust based on your design
-        height={50}
+        width={100} // Adjust based on your design
+        height={100}
       />
-      <div className="title">
-        <p className="position">{position}</p>
-        <p className="post-date">{postedAt}</p>
+      <p className="post-date">{postedAt}</p>
+      </div>
       </div>
 
-      <p><b>Company:</b> {company}</p>
-      <p><b>Location:</b> {location}</p>
-      <p className="role"><b>Role:</b> {role}</p>
-      <p className="level"><b>Level:</b> {level}</p>
-      <p className="contract"><b>Contract:</b> {contract}</p>
+      <p>
+        <b>Company:</b> {company}
+      </p>
+      <p>
+        <b>Location:</b> {location}
+      </p>
+      <p className="role">
+        <b>Role:</b> {role}
+      </p>
+      <p className="level">
+        <b>Level:</b> {level}
+      </p>
+      <p className="contract">
+        <b>Contract:</b> {contract}
+      </p>
 
-      <p className="languages"><b>Languages:</b> {languages.join(", ")}</p>
-      <p className="tools"><b>Tools:</b> {tools.join(", ")}</p>
+      <p className="languages">
+        <b>Languages:</b> {languages.join(", ")}
+      </p>
+      {tools.length > 0 ? (
+        <p className="tools">
+          <b>Tools:</b> {tools.join(", ")}
+        </p>
+      ) : null}
     </div>
   );
 };
